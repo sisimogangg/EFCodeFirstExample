@@ -131,3 +131,5 @@ C:\Users\Godfrey\EFCodeFirstSample\EFCodeFirstSample.Data\obj\Debug\EFCodeFirstS
 C:\Users\Godfrey\EFCodeFirstSample\EFCodeFirstSample.Data\obj\Debug\EFCodeFirstSample.Data.csproj.CopyComplete
 C:\Users\Godfrey\EFCodeFirstSample\EFCodeFirstSample.Data\obj\Debug\EFCodeFirstSample.Data.dll
 C:\Users\Godfrey\EFCodeFirstSample\EFCodeFirstSample.Data\obj\Debug\EFCodeFirstSample.Data.pdb
+C:\Users\Godfrey\EFCodeFirstSample\EFCodeFirstSample.Data\obj\Debug\DATA.Migrations.AddTestColumn.resources
+C:\Users\Godfrey\EFCodeFirstSample\EFCodeFirstSample.Data\obj\Debug\DATA.Migrations.RemoveTestColumn.resources

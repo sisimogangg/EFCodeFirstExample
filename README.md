@@ -1,5 +1,8 @@
 # Code First Migrations with EF
 
+#### Demo [here](http://efcodefirstsample-env.jixakememd.us-east-2.elasticbeanstalk.com/)
+
+
 This is a super basic example. Did not do much coding here as it was mostly configurations and scafolding. 
 
 # Architecture

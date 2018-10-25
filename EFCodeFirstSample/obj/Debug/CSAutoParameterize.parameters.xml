@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ClientContext-Web.config Connection String" description="ClientContext Connection String used in web.config by the application to access the database." defaultValue="Password=1eb0&amp;Leb0;User ID=sa;Initial Catalog=ClientsDB;Server=142.93.193.107;Connection Timeout=60" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Godfrey\\EFCodeFirstSample\\EFCodeFirstSample\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ClientContext']/@connectionString" />
+  </parameter>
+</parameters>

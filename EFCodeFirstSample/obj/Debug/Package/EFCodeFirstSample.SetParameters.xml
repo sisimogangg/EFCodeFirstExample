@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/" />
+  <setParameter name="ClientContext-Web.config Connection String" value="Password=1eb0&amp;Leb0;User ID=sa;Initial Catalog=ClientsDB;Server=142.93.193.107;Connection Timeout=60" />
+</parameters>

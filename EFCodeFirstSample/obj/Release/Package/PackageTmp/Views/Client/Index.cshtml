@@ -1,0 +1,40 @@
+﻿@model IEnumerable<DATA.Models.Client>
+
+@{
+    ViewBag.Title = "All Clients";
+}
+
+<h2>All Clients</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Surname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            <!-- <input type="button" value="Go Somewhere Else" onclick="location.href='<%: Url.Action(" Edit", "Client" ) %>'" /> -->
+            <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Edit", "Client", new { id = item.ClientID } )'"> Edit </button>
+            <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "Client", new { id = item.ClientID } )'"> Delete </button>
+        </td>
+    </tr>
+}
+
+</table>

@@ -87,6 +87,14 @@
     <Compile Include="Migrations\201810241230052_AddDefaultValueForColumnCancelled.Designer.cs">
       <DependentUpon>201810241230052_AddDefaultValueForColumnCancelled.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810250951215_AddTestColumn.cs" />
+    <Compile Include="Migrations\201810250951215_AddTestColumn.Designer.cs">
+      <DependentUpon>201810250951215_AddTestColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810251008058_RemoveTestColumn.cs" />
+    <Compile Include="Migrations\201810251008058_RemoveTestColumn.Designer.cs">
+      <DependentUpon>201810251008058_RemoveTestColumn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,6 +117,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810241230052_AddDefaultValueForColumnCancelled.resx">
       <DependentUpon>201810241230052_AddDefaultValueForColumnCancelled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810250951215_AddTestColumn.resx">
+      <DependentUpon>201810250951215_AddTestColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810251008058_RemoveTestColumn.resx">
+      <DependentUpon>201810251008058_RemoveTestColumn.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

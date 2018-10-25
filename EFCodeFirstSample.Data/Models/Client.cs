@@ -18,5 +18,7 @@ namespace DATA.Models
         public DateTime DateTimeStamp { get; } = DateTime.Now;
 
         public bool Cancelled { get; set; } = false;
+
+       
     }
 }
